@@ -23,7 +23,7 @@ public class E01Test {
                 Arguments.arguments("aa", "aab", true),
                 Arguments.arguments("ab", "abb", true),
                 Arguments.arguments("a", "b", false),
-                Arguments.arguments("aa", "ab", true),
+                Arguments.arguments("aa", "ab", false),
                 Arguments.arguments("x", "y", false),
                 Arguments.arguments("rat", "car", false),
                 Arguments.arguments("bok", "book", true),

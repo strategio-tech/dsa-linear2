@@ -1,5 +1,7 @@
 package tech.strategio;
 
+import java.util.*;
+
 public class E01 {
     /**
      * Given two strings ransomNote and magazine,
@@ -9,7 +11,7 @@ public class E01 {
      *
      * @param ransomNote - string #1
      * @param magazine - string #2
-     * @return
+     * @return boolean
      */
     public boolean canConstruct(String ransomNote, String magazine) {
         // @TODO Write the method
